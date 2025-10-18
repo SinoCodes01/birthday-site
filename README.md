@@ -69,3 +69,19 @@ Follow for more such creative and code-based content!
 ---
 
 Thanks for checking out this project! If you liked it, consider giving it a ⭐️ on GitHub and sharing the reel ❤️
+
+---
+
+## ⚠️ License & Usage
+
+### Free Code
+- This free version is strictly for **personal use only**.  
+- You **cannot** post, upload, or share this project online in any form (e.g., Instagram reels, YouTube videos, websites, or any public platform).  
+- Using this free code publicly is **prohibited**.
+- Any violation will be considered **copyright infringement**, and I reserve the right to report it.
+
+### Premium Code
+- You can **buy the premium code** from my store [here](https://www.anujbuilds.in/products/birthday-site)
+- The premium code can be used publicly **only if proper credit is given**:  
+  `Website idea & code by @anujbuilds`  
+- Without credit or without explicit permission, public use is **not allowed**.
