@@ -20,7 +20,7 @@ export default function BirthdayCelebration() {
         }}
         className="relative mb-2"
       >
-        <h1 className="text-4xl sm:text-5xl font-bold text-center text-pink-600 mb-2">Happy 20th Birthday, my dearest Ovayo!</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold text-center text-pink-600 mb-2">Happy 20th Birthday!</h1>
         <div className="flex justify-center gap-3">
           <Cake className="w-8 h-8 text-pink-500" />
           <Sparkles className="w-8 h-8 text-yellow-500" />
@@ -117,9 +117,6 @@ export default function BirthdayCelebration() {
         transition={{ delay: 1 }}
       >
         <div className="text-center">
-          <p className="text-lg text-purple-700 mb-4">
-          Thank you for being you, for your infectious smile, your beautiful heart, and for simply being the most amazing girlfriend a guy could ask for. Here’s to many more years of love and adventures together.
-          </p>
           <div className="flex justify-center items-center gap-2">
             <p className="text-pink-600 font-medium">I love you more than words can say. Always and forever! 🫶</p>
           </div>
