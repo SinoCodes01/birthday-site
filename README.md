@@ -1,12 +1,12 @@
 # Happy 20th Birthday, Ovayo! 💖🎂🎉
 
-This is a very special **Birthday Celebration Website** created with love for Ovayo's 20th Birthday! It's built using **Next.js, Tailwind CSS, Framer Motion**, and **Lucide Icons**.
+This is a very special **Birthday Celebration Website** created with love. It's built using **Next.js, Tailwind CSS, Framer Motion**, and **Lucide Icons**.
 
 ---
 
 ## 🧠 Project Idea
 
-> **POV:** It's Ovayo's 20th birthday, so you build something incredibly special for her!
+> **POV:** It's her birthday, so you build something incredibly special for her!
 
 The website features:
 
@@ -14,7 +14,7 @@ The website features:
 - Personalized birthday messages 🎈
 - Smooth animations using Framer Motion ✨
 - Cute icons and a heartfelt design 💌
-- A personalised photo carousel featuring Ovayo's stunning pictures 📸
+- Cute icons and a heartfelt design 💌
 
 
 
@@ -46,24 +46,23 @@ To get this project running locally:
     ```bash
     npm run dev
     ```
-    Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ---
 
 ## 🎨 Personalization
 
-This site is designed to be easily personalized for Ovayo. Here's how you can make it even more special:
+This site is designed to be easily personalized for that special someone. Here's how you can make it even more special:
 
 1.  **Birthday Message:**
     *   The main birthday message is located in `src/components/birthday-celebration.jsx`. Feel free to fine-tune the words to perfectly capture your sentiments.
 
 2.  **Photo Carousel:**
-    *   **Add Ovayo's Pictures:** Place your favorite pictures of Ovayo in the `public` directory.
-    *   **Update Image Paths:** Edit the `images` array in `src/components/PhotoCarousel.jsx` to include the paths to your new images (e.g., `"/ovayo-pic1.jpg", "/ovayo-pic2.jpg"`). Remove the existing placeholder image paths.
-    *   **Header:** The carousel header "Ovayo, Looking Absolutely Stunning! ✨" can be changed in `src/components/PhotoCarousel.jsx` if you wish.
+    *   **Add her Pictures:** Place your favorite pictures of her in the `public` directory.
+    *   **Update Image Paths:** Edit the `images` array in `src/components/PhotoCarousel.jsx` to include the paths to your new images. Remove the existing placeholder image paths.
+    *   **Header:** The carousel header can be changed in `src/components/PhotoCarousel.jsx` if you wish.
 
 3.  **Birthday Date:**
-    *   Update the `birthdayDate` constant in `src/app/page.jsx` to Ovayo's actual birthday.
+    *   Update the `birthdayDate` constant in `src/app/page.jsx` to actual birthday.
 
 ---
 

@@ -8,7 +8,6 @@ import Confetti from "@/components/confetti"
 import FloatingHearts from "@/components/floating-hearts"
 import Loader from "@/components/Loader"
 import { MoveRight, PartyPopper } from "lucide-react"
-import PhotoCarousel from "@/components/PhotoCarousel"
 
 export default function Home() {
   const [isBirthday, setIsBirthday] = useState(false)
@@ -81,7 +80,7 @@ export default function Home() {
         </motion.div>
       </motion.div>
 
-      {isBirthday && <PhotoCarousel />}
+
 
       {showForYouBtn && <motion.div
         key="start-button"
