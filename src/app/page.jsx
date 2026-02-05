@@ -8,13 +8,14 @@ import Confetti from "@/components/confetti"
 import FloatingHearts from "@/components/floating-hearts"
 import Loader from "@/components/Loader"
 import { MoveRight, PartyPopper } from "lucide-react"
+import PhotoCarousel from "@/components/PhotoCarousel"
 
 export default function Home() {
   const [isBirthday, setIsBirthday] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
   const [bubbles, setBubbles] = useState([])
   const [showForYouBtn, setShowForYouBtn] = useState(false)
-  const birthdayDate = new Date("February 25, 2026") // Change this date accordingly
+  const birthdayDate = new Date("February 05, 2026") // Change this date accordingly
   const audioRef = useRef(null)
 
   // For testing
@@ -62,9 +63,9 @@ export default function Home() {
       <FloatingHearts />
 
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        initial={{ opacity: 0, y: 50, rotate: -5, scale: 0.9 }}
+        animate={{ opacity: 1, y: 0, rotate: 0, scale: 1 }}
+        transition={{ duration: 0.8, type: "spring", stiffness: 100, damping: 10 }}
         className="relative z-10 w-full max-w-3xl mx-auto"
       >
         <motion.div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-3xl shadow-xl shadow-rose-100 p-8 border-2 border-rose-200"
@@ -79,6 +80,8 @@ export default function Home() {
           </AnimatePresence>
         </motion.div>
       </motion.div>
+
+      {isBirthday && <PhotoCarousel />}
 
       {showForYouBtn && <motion.div
         key="start-button"
@@ -107,7 +110,7 @@ export default function Home() {
       </motion.div>}
 
       {/* You can change the background song if you want */}
-      <audio ref={audioRef} src="/birthday.mp3" preload="auto" loop />
+      <audio ref={audioRef} src="/birthday-afro.mp3" preload="auto" loop />
 
       {/* Decorative elements */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-0 overflow-hidden">

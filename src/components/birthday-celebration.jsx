@@ -20,13 +20,13 @@ export default function BirthdayCelebration() {
         }}
         className="relative mb-2"
       >
-        <h1 className="text-4xl sm:text-5xl font-bold text-center text-pink-600 mb-2">Happy Birthday!</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold text-center text-pink-600 mb-2">Happy 20th Birthday, my dearest Ovayo!</h1>
         <div className="flex justify-center gap-3">
           <Cake className="w-8 h-8 text-pink-500" />
           <Sparkles className="w-8 h-8 text-yellow-500" />
           <Heart className="w-8 h-8 text-pink-500" />
         </div>
-        <h3 className="text-2xl sm:text-3xl font-bold text-center text-pink-600 mt-2">To My Cutiepie</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold text-center text-pink-600 mt-2">To My Incredible Girlfriend!</h3>
       </motion.div>
 
       <motion.div
@@ -88,9 +88,9 @@ export default function BirthdayCelebration() {
             >
               <div className="text-center">
                 <p className="text-purple-700 mb-2">
-                Just wanted to remind you—you're my favorite person. My days are better, smiles are wider, and life is sweeter because of you.
+                Three incredible years have flown by since you came into my life, and each day with you is a gift. You light up my world, make every moment an adventure, and truly are my favorite person.
                 </p>
-                <p className="text-pink-600 font-medium">I hope your birthday is full of love, magic, and everything that makes you smile 💖</p>
+                <p className="text-pink-600 font-medium">I hope your special day is filled with as much joy, love, and magic as you bring into my life. May all your dreams come true, and may this year bring you endless happiness. 💖</p>
                 <div className="flex justify-center">
                   <motion.div
                     animate={{
@@ -118,10 +118,10 @@ export default function BirthdayCelebration() {
       >
         <div className="text-center">
           <p className="text-lg text-purple-700 mb-4">
-          May every wish you make today come true. You deserve the world, and I’ll always be here to remind you of that.
+          Thank you for being you, for your infectious smile, your beautiful heart, and for simply being the most amazing girlfriend a guy could ask for. Here’s to many more years of love and adventures together.
           </p>
           <div className="flex justify-center items-center gap-2">
-            <p className="text-pink-600 font-medium">Let’s always stay like this... together, forever 🫶</p>
+            <p className="text-pink-600 font-medium">I love you more than words can say. Always and forever! 🫶</p>
           </div>
         </div>
       </motion.div>

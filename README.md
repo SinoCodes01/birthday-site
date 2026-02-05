@@ -1,13 +1,12 @@
-# Birthday Surprise Website 🎂🎉
+# Happy 20th Birthday, Ovayo! 💖🎂🎉
 
-This is a special **Birthday Celebration Website** created using **Next.js, Tailwind CSS, Framer Motion**, and **Lucide Icons**.  
-It's designed as a personal and emotional way to wish someone special — when you can't be there physically, let your code speak! 💖
+This is a very special **Birthday Celebration Website** created with love for Ovayo's 20th Birthday! It's built using **Next.js, Tailwind CSS, Framer Motion**, and **Lucide Icons**.
 
 ---
 
 ## 🧠 Project Idea
 
-> **POV:** It's her birthday, but you can't meet — so you build something special instead.
+> **POV:** It's Ovayo's 20th birthday, so you build something incredibly special for her!
 
 The website features:
 
@@ -15,21 +14,9 @@ The website features:
 - Personalized birthday messages 🎈
 - Smooth animations using Framer Motion ✨
 - Cute icons and a heartfelt design 💌
+- A personalised photo carousel featuring Ovayo's stunning pictures 📸
 
-This was created as part of an emotional reel where the journey begins with a few lines of code in VS Code and ends with a beautiful surprise on the browser.
 
----
-
-## Screenshots:
-
-1. **Loader Page**
-   ![Screenshot 1](./public/ss1.png)
-
-2. **Countdown Page**
-   ![Screenshot 2](./public/ss2.png)
-
-3. **Happy Birthday Message Screen**
-   ![Screenshot 3](./public/ss3.png)
 
 ---
 
@@ -42,46 +29,41 @@ This was created as part of an emotional reel where the journey begins with a fe
 
 ---
 
-## 🔧 Setup
+## 🚀 Setup & Run
 
-To run this project locally:
+To get this project running locally:
 
-```bash
-git clone https://github.com/Anuj579/birthday-site.git
-cd birthday-site
-npm install
-npm run dev
-```
-
-Make sure to update the target date in `Home` component if you want to reuse this.
-
----
-
-## 🌐 Connect with Me
-
-Follow for more such creative and code-based content!
-
-- 📸 **Instagram**: [@anujbuilds](https://instagram.com/anujbuilds)
-- 🎥 **YouTube**: [@anujbuilds](https://youtube.com/@anujbuilds)
-- 🐦 **Twitter/X**: [@anujbuilds](https://twitter.com/anujbuilds)
-- 💼 **LinkedIn**: [Anuj Chaudhary](https://linkedin.com/in/anujchaudhary549)
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_REPO_URL_HERE]
+    cd birthday-site
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ---
 
-Thanks for checking out this project! If you liked it, consider giving it a ⭐️ on GitHub and sharing the reel ❤️
+## 🎨 Personalization
+
+This site is designed to be easily personalized for Ovayo. Here's how you can make it even more special:
+
+1.  **Birthday Message:**
+    *   The main birthday message is located in `src/components/birthday-celebration.jsx`. Feel free to fine-tune the words to perfectly capture your sentiments.
+
+2.  **Photo Carousel:**
+    *   **Add Ovayo's Pictures:** Place your favorite pictures of Ovayo in the `public` directory.
+    *   **Update Image Paths:** Edit the `images` array in `src/components/PhotoCarousel.jsx` to include the paths to your new images (e.g., `"/ovayo-pic1.jpg", "/ovayo-pic2.jpg"`). Remove the existing placeholder image paths.
+    *   **Header:** The carousel header "Ovayo, Looking Absolutely Stunning! ✨" can be changed in `src/components/PhotoCarousel.jsx` if you wish.
+
+3.  **Birthday Date:**
+    *   Update the `birthdayDate` constant in `src/app/page.jsx` to Ovayo's actual birthday.
 
 ---
 
-## ⚠️ License & Usage
-
-### Free Code
-- This free version is strictly for **personal use only**.  
-- You **cannot** post, upload, or share this project online in any form (e.g., Instagram reels, YouTube videos, websites, or any public platform).  
-- Using this free code publicly is **prohibited**.
-- Any violation will be considered **copyright infringement**, and I reserve the right to report it.
-
-### Premium Code
-- You can **buy the premium code** from my store [here](https://www.anujbuilds.in/products/birthday-site)
-- The premium code can be used publicly **only if proper credit is given**:  
-  `Website idea & code by @anujbuilds`  
-- Without credit or without explicit permission, public use is **not allowed**.
